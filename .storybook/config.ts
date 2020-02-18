@@ -1,9 +1,9 @@
-import { addDecorator, configure } from "@storybook/react"
-import { action } from "@storybook/addon-actions"
-import { withOptions } from "@storybook/addon-options"
-import { withKnobs } from "@storybook/addon-knobs"
-import { configureActions } from "@storybook/addon-actions"
-import { withA11y } from "@storybook/addon-a11y"
+import { withA11y } from '@storybook/addon-a11y'
+import { action } from '@storybook/addon-actions'
+import { configureActions } from '@storybook/addon-actions'
+import { withKnobs } from '@storybook/addon-knobs'
+import { withOptions } from '@storybook/addon-options'
+import { addDecorator, configure } from '@storybook/react'
 
 withOptions({
   hierarchyRootSeparator: /\|/,
